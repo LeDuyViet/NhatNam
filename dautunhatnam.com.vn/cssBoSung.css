@@ -345,4 +345,11 @@ a:hover {
 	transform: rotate(360deg);
 	transition: all 0.9s;
 }
+/* Q&A */
+.card:hover button {
+	font-size: 1.2rem;
+	transition: all 0.9s;
+	color: #007bff !important;
+}
+  
   
