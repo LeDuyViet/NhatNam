@@ -351,5 +351,52 @@ a:hover {
 	transition: all 0.9s;
 	color: #007bff !important;
 }
+/* Trang hiển thị bài viết */
+.cus-container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.cus-container .w-breadcrumb {
+  border-radius: 5px;
+}
+.cus-container h1,
+.cus-container h1 span,
+.cus-container h3 {
+  color: #0095c7;
+}
+.cus-container h1 {
+  font-size: 2.1rem;
+}
+.cus-container h2 span {
+  color: #3d405b;
+  font-size: 1.7rem;
+}
+.cus-container * {
+  color: #343a40;
+}
+.cus-container img {
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.548) 0px 8px 24px;
+}
+.cus-container #toc_container.toc_light_blue {
+  width: 100% !important;
+  padding: 10px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.cus-container .w-post-new {
+  margin-bottom: 26px;
+  background-color: #0095c725;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: rgba(149, 157, 165, 0.596) 0px 8px 24px;
+}
+.cus-container .w-post-new .wrap-k2-image:hover .post-image {
+  margin: -9px;
+  margin-bottom: 20px;
+  transition: all 0.7s;
+}
+
   
   
