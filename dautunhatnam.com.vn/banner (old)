@@ -1,0 +1,41 @@
+<div class="banner-carousel cms-carousel owl-carousel owl-theme" data-margin="0" data-loop="true" data-nav="true" data-dots="true" data-autoplay="true" data-center="false" data-large-items="1" data-medium-items="1" data-small-items="1" data-xsmall-items="1">
+
+				<div class="item">
+                    <div class="img">
+						<a href="https://dautunhatnam.vn/chuong-trinh-uu-dai-dac-biet-cua-nhat-nam/" rel="nofollow">
+<!--                         <img src="http://dautunhatnam.com.vn/wp-content/uploads/2021/09/10fb73bc98b06eee37a1.jpg" alt="Ưu đãi đặc biệt"> -->
+						</a>
+                    </div>
+                </div>
+				<div class="item">
+                    <div class="img">
+						<a href="https://dautunhatnam.vn/chuong-trinh-uu-dai-dac-biet-cua-nhat-nam/" rel="nofollow">
+<!--                         <img src="http://dautunhatnam.com.vn/wp-content/uploads/2021/09/Banner-DT-01.jpg" alt="Ưu đãi đặc biệt"> -->
+						</a>
+                    </div>
+                </div>
+				
+                <div class="item">
+                    <div class="img">
+                        <img src="<?php echo get_template_directory_uri().'/assets/images/nn-group/banner-bat-dong-san-nhat-nam1.jpg'; ?>" alt="Bất động sản Nhật Nam">
+                    </div>
+                </div>
+				
+				
+              
+
+                <div class="item">
+                    <div class="img">
+<!--                         <img src="http://dautunhatnam.com.vn/wp-content/uploads/2021/09/Banner-DT-02.jpg" alt="Gói chương trình 168"> -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+<!--                         <img src="http://dautunhatnam.com.vn/wp-content/uploads/2021/09/Banner-DT-03.jpg" alt="Chuỗi dịch vụ karaoke"> -->
+                    </div>
+                </div>
+
+
+				
+				
+			</div>
