@@ -37,7 +37,7 @@
   }
   /* footer */
   .footer-logo-copyright.footer-not-logo.footer-not-gotop  {
-	  padding: 10px 0;
+	  display: none;
   }
   /* Search */
   #top-search a {
@@ -100,27 +100,59 @@
 	  opacity: 1;
 		  
   }
-  
-  @media (min-width: 739px) {
-  
-	  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets a{
+  /* TOC */
+  @media (max-width: 738px) {
+  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets a{
 		  margin: 5px;
 	  }
-  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets 	{
+  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets.contracted	{
 		  border-radius: 5px;
-		  top: 30%;
-		  left: 0%;
+		  top: 88%;
+		  left: 1%;
+		  z-index: 100;
+		  opacity: 1;
+	  }
+		  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets {
+		  border-radius: 5px;
+		  top: 18%;
+		  left: 1%;
 		  z-index: 100;
 		  opacity: 1;
 	  }
   .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets.is_scroll 	{
 		  position: fixed;
 	  }
+	  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets.is_scroll.contracted {
+	  transition: all 0.3s ease-in;
+	  opacity: 0.3;
+	  padding: 10px 0px !important;
   }
-  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets.is_scroll.contracted {
+  }
+  
+  @media (min-width: 739px) {
+	  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets.is_scroll.contracted {
 	  transition: all 3s ease-in;
 	  opacity: 0.2;
 	  padding: 12px 0px !important;
+  }
+	  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets a{
+		  margin: 5px;
+	  }
+  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets 	{
+		  border-radius: 5px;
+		  top: 30%;
+		  left: 8%;
+		  z-index: 100;
+		  opacity: 1;
+	  }
+  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets.is_scroll 	{
+		  position: fixed;
+	  }
+	  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets.is_scroll.contracted {
+	  transition: all 2s ease-in;
+	  opacity: 0.2;
+	  padding: 12px 0px !important;
+  }
   }
   @media (min-width: 1536px) and (max-width: 1636px) {
 	  .post.type-post.status-publish .post-content-entry .toc_light_blue.no_bullets {
