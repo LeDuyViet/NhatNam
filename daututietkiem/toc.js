@@ -8,6 +8,7 @@ const observer = new IntersectionObserver((entries, observer) => {
         }
     } else {
         toc.classList.remove('is_scroll')
+		document.querySelector('.toc_toggle a').click()
     }
 }, {
     threshold: 1
